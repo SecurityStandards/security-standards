@@ -1,0 +1,28 @@
+# Security Frameworks & Regulatory Standards Mappings
+
+Mapeamento detalhado de requisitos e controles para os principais frameworks globais de segurança.
+
+* [**CIS AWS Foundations (v1.2.0)**](cis-aws-foundations.md)
+* [**CIS Controls (v7)**](cis-controls.md)
+* [**CIS Google Cloud Foundations (v1.1.0)**](cis-gcp-foundations.md)
+* [**CMMC (v(Level 1) Cybersecurity Maturity Model Certification (CMMC))**](cmmc-level1.md)
+* [**controls-mapping **](controls-mapping.md)
+* [**CSA CCM (v3.0.1)**](csa-ccm.md)
+* [**FedRAMP (v(High) NIST 800-53r4)**](fedramp-high.md)
+* [**FedRAMP (v(Low) NIST 800-53r4)**](fedramp-low.md)
+* [**FedRAMP (v(Moderate) NIST 800-53r4)**](fedramp-moderate.md)
+* [**HIPAA (v2013)**](hipaa.md)
+* [**ISO/IEC 27002:2005 (v2005)**](iso-iec-27002-2005.md)
+* [**ISO/IEC 27002:2013 (v2013)**](iso-iec-27002-2013.md)
+* [**NIST CSF (v1.1)**](nist-csf.md)
+* [**PCI DSS (v3.2.1)**](pci-dss-japanese.md)
+* [**PCI DSS (v3.2.1 SAQ-A)**](pci-dss-saq-a.md)
+* [**PCI DSS (v3.2.1)**](pci-dss.md)
+* [**Secure Controls Framework (v2020.4)**](scf.md)
+* [**Security Program (v2019)**](security-program.md)
+* [**SOC 2 Security (vAICPA 2017)**](soc2-controls-mapping.md)
+* [**SOC 2 Security (vAICPA 2017)**](soc2-security-controls.md)
+* [**SOC 2 Security (vAICPA 2017)**](soc2-security-with-sample-controls.md)
+* [**SOC 2 (vTSC Security)**](soc2-security.md)
+* [**<placeholder> (v<placeholder>)**](template.md)
+* [**THSA (v2019.1)**](thsa.md)

@@ -9,9 +9,18 @@ Este documento define os requisitos mandatórios para qualquer agente trabalhand
 - **Co-autoria da IA:** Apenas como trailer no rodapé do commit:
   `Co-Authored-By: <Agent Name> <noreply@...>`
 
-## 2. Metodologia: Spec-Driven Development (SDD)
-- Toda feature ou reestruturação segue especificações em `docs/specs/<NNN>-<feature>/` com `spec.md`, `plan.md` e `tasks.md`.
-- Uma spec por domínio.
+## 2. Metodologia: Domain-Based Spec-Driven Development (SDD)
+- Toda feature, refatoração ou consolidação estrutural deve ser guiada por especificações organizadas por **domínio**:
+  - Padrão de diretório: `docs/specs/<domain>/` (ex.: `docs/specs/policies/`, `docs/specs/domain-consolidation/`).
+  - Cada spec contém:
+    - `spec.md` (o quê e por quê: escopo delimitado, requisitos e critérios de aceite).
+    - `plan.md` (como: contratos, arquitetura e decisões técnicas).
+    - `tasks.md` (tarefas de implementação incrementais e verificáveis).
+- **Uma spec = um domínio**. Nunca misturar múltiplos domínios não correlatos em uma única spec.
 
-## 3. Higiene do Ambiente & Worktrees
-- Operações paralelas em worktrees isoladas com limpeza após uso (`git worktree remove` e `git worktree prune`).
+## 3. Repositório Focado em Markdown & Conteúdo Canônico
+- Todo o conteúdo deve ser apresentado diretamente em Markdown claro e legível nativamente no GitHub.
+- Sem dependência obrigatória de compiladores ou runtimes proprietários para consulta ou consumo por agentes de IA.
+
+## 4. Higiene do Ambiente & Worktrees
+- Operações paralelas operam em worktrees isoladas com limpeza após uso (`git worktree remove` e `git worktree prune`).
